@@ -32,6 +32,7 @@ gem 'rails-ujs', '~> 5.1.0.beta1'
 gem 'omniauth'
 gem 'omniauth-google-oauth2', '~> 0.4.1'
 gem 'activerecord-session_store', '~> 1.0'
+gem 'figaro'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
