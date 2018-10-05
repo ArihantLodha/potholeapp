@@ -23,15 +23,15 @@ gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
 
 gem 'jquery'
-gem 'devise'
+gem 'devise', '~> 4.2'
 gem 'jquery-rails'
 gem 'twitter-bootstrap-rails'
 gem 'devise-bootstrap-views', '~> 1.0'
 gem 'bootstrap-sass', '3.3.6'
 gem 'rails-ujs', '~> 5.1.0.beta1'
-
-
-
+gem 'omniauth'
+gem 'omniauth-google-oauth2', '~> 0.4.1'
+gem 'activerecord-session_store', '~> 1.0'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
@@ -53,6 +53,7 @@ group :development do
   gem 'sqlite3'
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
+  gem 'dotenv', '~> 2.2.1'
 end
 
 group :production do
